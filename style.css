@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+form {
+    background: #f2f2f2;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 1);
+}
+
+input{
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 12px;
+}
+
+
+.btn-group{
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submitBtn {
+    background: #4caf50;
+    color: #f2f2f2;
+}
+
+#resetBtn {
+    background: #f44336;
+    color: #f2f2f2;
+}
